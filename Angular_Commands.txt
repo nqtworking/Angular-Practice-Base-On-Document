@@ -1,0 +1,32 @@
+Kiểm tra phiên bản angular cli
+ng version
+
+Tạo dự án Angular
+ng new lession-11-pipes
+cd lession-11-pipes
+code .
+
+
+
+Chạy ứng dụng angular
+ng serve
+
+Tạo component
+
+ng g c hello
+
+Xóa cache và tải lại
+rm -rf node_modules package-lock.json
+npm install
+ng serve
+
+
+Tạo một service bằng Angular CLI:
+ng g s my-service
+
+
+Tạo directive
+ng generate directive highlight
+
+Tạo pipe
+ng g p custom

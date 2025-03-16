@@ -1,0 +1,14 @@
+Chào bạn, tôi đang theo lộ trình học Angular từ cơ bản tới nâng cao. Bạn đã dạy tôi các bài sau đây:
+Bài 1: Giới thiệu Angular và Cài đặt Môi trường
+Bài 2: Data Binding trong Angular
+Bài 3: Component Communication trong Angular
+Bài 4: Angular Routing (Điều hướng giữa các Component)
+Bài 5: Reactive Forms trong Angular
+Bài 6: Gọi API trong Angular với HttpClient
+Bài 7: Quản lý trạng thái trong Angular với NgRx (State Management)
+Bài 8: Angular Services và Dependency Injection
+Bài 9: Lifecycle Hooks trong Angular
+Bài 10: Custom Directives trong Angular
+Bài 11: Custom Pipes trong Angular
+
+Hãy tiếp tục lộ trình trên.

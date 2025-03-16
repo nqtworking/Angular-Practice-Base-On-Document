@@ -1,0 +1,15 @@
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+
+@Component({
+  selector: 'app-child',
+  imports: [],
+  templateUrl: './child.component.html',
+  styleUrl: './child.component.scss'
+})
+export class ChildComponent {
+  @Input() name: string = '';
+  @Output() messageEvent = new EventEmitter<string>();
+  sendMessage() {
+    this.messageEvent.emit('Xin chào từ Component con!');
+  }
+}
