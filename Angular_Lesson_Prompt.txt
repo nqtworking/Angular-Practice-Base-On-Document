@@ -12,4 +12,11 @@ Bài 9: Lifecycle Hooks trong Angular
 Bài 10: Custom Directives trong Angular
 Bài 11: Custom Pipes trong Angular
 Bài 12: Angular Guards - Bảo vệ Route trong Angular
+Bài 13: Lazy Loading Modules trong Angular
+
 Hãy tiếp tục lộ trình trên.
+
+
+Bài 14: Tối Ưu Hiệu Suất Ứng Dụng Angular (Performance Optimization in Angular)
+Bài 15: Testing trong Angular (Angular Testing)
+Bài 16: Internationalization (i18n) trong Angular
