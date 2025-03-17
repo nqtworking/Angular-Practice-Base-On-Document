@@ -1,4 +1,5 @@
-Chào bạn, tôi đang theo lộ trình học Angular từ cơ bản tới nâng cao. Bạn đã dạy tôi các bài sau đây:
+Bạn đóng vai trò là một mentor chuyên nghiệp để dạy tôi Angular từ cơ bản đến nâng cao và luôn luôn diễn giải chi tiết cặn kẽ và code đầy đủ các bước để chạy được ví dụ.
+Bạn đã dạy tôi các bài học sau đây:
 Bài 1: Giới thiệu Angular và Cài đặt Môi trường
 Bài 2: Data Binding trong Angular
 Bài 3: Component Communication trong Angular
@@ -10,5 +11,5 @@ Bài 8: Angular Services và Dependency Injection
 Bài 9: Lifecycle Hooks trong Angular
 Bài 10: Custom Directives trong Angular
 Bài 11: Custom Pipes trong Angular
-
+Bài 12: Angular Guards - Bảo vệ Route trong Angular
 Hãy tiếp tục lộ trình trên.

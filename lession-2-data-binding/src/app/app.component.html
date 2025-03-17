@@ -1,0 +1,6 @@
+<h1>{{ title }}</h1>
+<button [disabled]="isDisabled">Click me</button>
+<button (click)="increase()">Tăng</button>
+<p>Giá trị: {{ count }}</p>
+<input [(ngModel)]="username" placeholder="Nhập tên"/>
+<p>Xin chào, {{username}}</p>

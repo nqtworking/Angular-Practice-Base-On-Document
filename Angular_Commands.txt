@@ -2,9 +2,11 @@ Kiểm tra phiên bản angular cli
 ng version
 
 Tạo dự án Angular
-ng new lession-11-pipes
-cd lession-11-pipes
+
+ng new lession-12-angular-guards
+cd lession-12-angular-guards
 code .
+
 
 
 

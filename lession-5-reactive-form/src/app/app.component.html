@@ -1,0 +1,43 @@
+<div class="container">
+  <h2>Đăng ký tài khoản</h2>
+  
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Tên:</label>
+      <input id="name" type="text" formControlName="name">
+      <span *ngIf="userForm.controls['name'].invalid && userForm.controls['name'].touched">
+        Tên phải có ít nhất 3 ký tự
+      </span>
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input id="email" type="email" formControlName="email">
+      <span *ngIf="userForm.controls['email'].invalid && userForm.controls['email'].touched">
+        Email không hợp lệ
+      </span>
+    </div>
+
+    <div>
+      <label for="password">Mật khẩu:</label>
+      <input id="password" type="password" formControlName="password">
+      <span *ngIf="userForm.controls['password'].invalid && userForm.controls['password'].touched">
+        Mật khẩu phải có ít nhất 6 ký tự
+      </span>
+    </div>
+
+    <div>
+      <label for="phones">Số điện thoại:</label>
+      <div *ngFor="let phone of phones.controls; let i = index">
+        <input type="text" [formControlName]="i">
+        <button type="button" (click)="removePhone(i)">Xóa</button>
+      </div>
+      <button type="button" (click)="addPhone()">Thêm số điện thoại</button>
+    </div>
+    
+
+    <button type="submit" [disabled]="userForm.invalid">Đăng ký</button>
+  </form>
+
+  <p><strong>Dữ liệu form:</strong> {{ userForm.value | json }}</p>
+</div>

@@ -1,0 +1,33 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ddd;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  span {
+    color: red;
+    font-size: 12px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:disabled {
+    background-color: gray;
+  }
